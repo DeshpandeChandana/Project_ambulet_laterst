@@ -132,8 +132,8 @@ void get_bandwidth_3G(struct threeg_thread_data conf_data[])
 
 
 	for(i=0;i<MAX_DEVICE;i++){
-//		data_3g[i].bandwidth = 384;
-	printf("*********!!!!!!!!get_bw_cnt = %d next_time = %d polling_int = %d\n!!!!!!! ",get_bw_cnt,conf_data[i].next_time,conf_data[i].polling_interval);
+		data_3g[i].bandwidth = 384;
+/*	printf("*********!!!!!!!!get_bw_cnt = %d next_time = %d polling_int = %d\n!!!!!!! ",get_bw_cnt,conf_data[i].next_time,conf_data[i].polling_interval);
 		
 		if(strlen(spn_if[i])){
 			if(i==0){
@@ -184,6 +184,7 @@ void get_bandwidth_3G(struct threeg_thread_data conf_data[])
 		}else{
 			data_3g[i].bandwidth = 0;
 		}
+*/
 		
 	}
 
