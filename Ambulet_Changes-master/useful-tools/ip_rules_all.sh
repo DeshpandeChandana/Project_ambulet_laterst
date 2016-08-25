@@ -1,4 +1,5 @@
 # move ip_rules_all.sh
+#editing code required
 # read before execution HOWTO_CONFIGURE_3G_DEVICE
 
 #! /bin/bash
