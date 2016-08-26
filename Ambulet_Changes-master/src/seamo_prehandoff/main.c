@@ -203,4 +203,7 @@ int main(int argc, char **argv)
 			}
 			sleep(POLLING_INTERVAL);
 		}
+		
+	        fclose(rssi_log);
+
 }
