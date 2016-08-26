@@ -57,7 +57,7 @@ bool ismodem(DBusConnection * conn)
 
 /* This function returns the RSSI of the 3G network */
 
-int get_rssi(DBusConnection * conn, float level[])
+int get_rssi(DBusConnection * conn, float level[], FILE * rssi_log)
 {
 	char *modem_list[5];
 	char *service_provider = malloc(100);
@@ -85,6 +85,10 @@ int get_rssi(DBusConnection * conn, float level[])
         rssi_dbm = (rssi_dbm * 2) - 113;
 
         printf("rssi=%f\t spn= %s\n",rssi_dbm,service_provider);
+        
+        fseek( rssi_log, 0, SEEK_CUR );
+        fprintf(rssi_log,"rssi=%f\t spn= %s\n",rssi_dbm,service_provider);
+
 
             if (rssi_dbm == normalize){
               rssi_dbm = -115;
