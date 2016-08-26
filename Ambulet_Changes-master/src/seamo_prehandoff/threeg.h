@@ -68,7 +68,7 @@ struct threeg_thread_data {
 };
 
 void *threeg(void *);
-void scan_3G(DBusConnection *conn);
+void scan_3G(DBusConnection *conn, FILE *rssi_log);
 void get_bandwidth_3G(struct threeg_thread_data conf_data[]);
 int get_rssi(DBusConnection *conn, float level[]);
 float get_rtt(char* filename);
