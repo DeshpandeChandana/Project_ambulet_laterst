@@ -46,7 +46,7 @@ extern int auto_switch;
  * algorithm by the thread running.
  */
 
-void scan_3G(DBusConnection *conn){
+void scan_3G(DBusConnection *conn, FILE * rssi_log){
 	
         float level[MAX_DEVICE];
         int i=0;
@@ -54,7 +54,7 @@ void scan_3G(DBusConnection *conn){
 	
         bzero(level,sizeof(level));
 
-        get_rssi(conn,level);
+        get_rssi(conn,level,rssi_log);
  	
 
 	for(i=0;i<MAX_DEVICE;i++){
