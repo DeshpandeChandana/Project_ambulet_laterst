@@ -96,7 +96,10 @@ int main(int argc, char **argv)
 		syslog(LOG_ERR, "sock error\n");
 
 	/* Reading the configuration File */
+	/* To record rssi valcues */
+	rssi_log = fopen("26_08_16.txt", "w");
 
+	
 	fp = fopen(CONF_DIR, "r");
 	while (!feof(fp)) {
 		line = fgets(line, 100, fp);
