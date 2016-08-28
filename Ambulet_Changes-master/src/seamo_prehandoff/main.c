@@ -51,7 +51,7 @@ int main(int argc, char **argv)
 	int sockfd, no_of_wifi = 0, i;
 	pthread_t wifi_thread, threeg_thread;
 	FILE *fp;
-        FILE *rssi_log;
+        FILE *rssi_log;                                    /* Log file for recording different QEV and QDV values */
 	struct wifi_thread_data thread_data;
 	struct threeg_thread_data threeg_data[MAX_DEVICE];
 	char conf[10][30], *line = malloc(100), *ptr;
