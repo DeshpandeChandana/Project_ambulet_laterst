@@ -97,7 +97,7 @@ int main(int argc, char **argv)
 
 	/* Reading the configuration File */
 	/* To record rssi valcues */
-	rssi_log = fopen("26_08_16.txt", "w");
+	rssi_log = fopen("26_08_16.txt", "a");
 
 	
 	fp = fopen(CONF_DIR, "r");
