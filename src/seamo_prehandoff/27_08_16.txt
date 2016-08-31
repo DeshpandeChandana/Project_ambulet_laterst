@@ -1,0 +1,44 @@
+(null)	(null)	(null)
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+3:1829-08-16ECE_N/W_LAB	29-08-16ECE_N/W_LAB	ECE_N/W_LAB
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+15:229-08-16ECE_NW_LAB	29-08-16ECE_NW_LAB	ECE_NW_LAB
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-113.000000	 spn=airtel
+rssi=-113.000000	 spn=airtel
+rssi=-103.000000	 spn=airtel
+15:329-08-16ECE_NW_LAB	29-08-16ECE_NW_LAB	ECE_NW_LAB
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+15:328-08-16ECE_NW_LAB	28-08-16ECE_NW_LAB	ECE_NW_LAB
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-101.000000	 spn=airtel
+rssi=-111.000000	 spn=airtel
+rssi=-111.000000	 spn=airtel

@@ -1,0 +1,7 @@
+--2016-08-24 15:47:08--  http://5/
+Resolving proxy.iisc.ernet.in (proxy.iisc.ernet.in)... 10.16.40.111, 10.16.40.112
+Connecting to proxy.iisc.ernet.in (proxy.iisc.ernet.in)|10.16.40.111|:3128... wget: unable to resolve bind address ‘-T’; disabling bind.
+connected.
+Proxy request sent, awaiting response... 503 Service Unavailable
+2016-08-24 15:47:08 ERROR 503: Service Unavailable.
+
