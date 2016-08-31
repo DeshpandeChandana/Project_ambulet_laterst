@@ -100,7 +100,12 @@ int main(int argc, char **argv)
 	/* Reading the configuration File */
 
 
-	rssi_log = fopen("27_08_16.txt", "a");
+	rssi_log = fopen("31_08_16.txt", "a");
+	printf("Current location?\n");
+	char *location;
+	scanf("%s",location);
+	fprintf(rssi_log,"Current Location: %s\n",location);
+	
 	
 	fp = fopen(CONF_DIR, "r");
 	while (!feof(fp)) {
